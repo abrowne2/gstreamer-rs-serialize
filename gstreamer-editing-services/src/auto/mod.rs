@@ -45,6 +45,9 @@ pub use self::command_line_formatter::CommandLineFormatter;
 mod container;
 pub use self::container::Container;
 
+mod discoverer_manager;
+pub use self::discoverer_manager::DiscovererManager;
+
 mod effect;
 pub use self::effect::Effect;
 

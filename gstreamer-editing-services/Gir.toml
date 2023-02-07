@@ -129,6 +129,14 @@ status = "generate"
     ignore = true
 
 [[object]]
+name = "GES.DiscovererManager"
+status = "generate"
+    [[object.signal]]
+    name = "discovered"
+    # Pointers and HashTables
+    ignore = true
+
+[[object]]
 name = "GES.Clip"
 status = "generate"
     [[object.function]]
