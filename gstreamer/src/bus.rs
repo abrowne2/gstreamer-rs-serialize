@@ -13,7 +13,8 @@ use futures_util::{stream::FusedStream, StreamExt};
 use glib::{
     ffi::{gboolean, gpointer},
     prelude::*,
-    source::{Continue, Priority, SourceId},
+    ControlFlow::Continue,
+    source::{Priority, SourceId},
     translate::*,
 };
 
